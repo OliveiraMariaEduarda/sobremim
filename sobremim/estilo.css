@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+    border: 0;
+}
+
+body{
+    background-image: url(img/flores.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+h1{
+    font-size: 100px;
+    font-family: Alittlesunshine;
+    text-align: center;
+    padding: 40px;
+    color: #88b04b;
+    background-color: white;
+    width: 100%;
+    margin-top: 5%;
+}
+h2{
+    font-size: 30px;
+    font-family: Alittlesunshine;
+    color:#88b04b;
+}
+
+p{
+    font-family: CaviarDreams;
+    color: rgb(0, 0, 0);
+    font-weight:600;
+    margin-top: 10px;
+}
+.container{
+    margin: 70px;
+    text-align: justify;
+}
+.inner{
+    display: block;
+    background: rgba(255, 255, 253, 0.843);
+    padding: 20px;
+    margin: 10px;
+    border-radius: 35px;
+}
+.button{
+    display: inline-block;
+    text-align: center;
+    border-radius: 8px;
+    width: 150px;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.838);
+    
+}
+
+.button2{
+    display: inline-block;
+    padding: auto ;
+    border-radius:8px;
+    padding: 5px;
+    background-color: rgba(255, 255, 255, 0.838);
+}
+
+.button2 .img{
+    height: 40px;
+}
+
+@font-face {
+    font-family:Alittlesunshine ;
+    src: url(fonte/A\ little\ sunshine.ttf);
+  }
+
+@font-face {
+    font-family: CaviarDreams;
+    src: url(fonte/CaviarDreams.ttf);
+  }
+
+  @font-face {
+    font-family: Rounded_Elegance;
+    src: url(fonte/Rounded_Elegance.ttf);
+  }
+
+  @font-face {
+    font-family: Nesans;
+    src: url(fonte/Nesans.ttf);
+  }
+

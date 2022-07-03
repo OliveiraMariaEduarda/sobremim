@@ -1,0 +1,53 @@
+@font-face {
+    font-family: CaviarDreams;
+    src: url(fonte/CaviarDreams.ttf);
+  }
+  @font-face {
+    font-family:Alittlesunshine ;
+    src: url(fonte/A\ little\ sunshine.ttf);
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+    border: 0;
+
+}
+
+body{
+    background-image: url(img/fundolaranja.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.corpo{
+    background-color: rgba(255, 255, 255, 0.801);
+    padding: 25px;
+    margin: 10%;
+    border-radius: 35px;
+}
+
+h1{
+    font-family: Alittlesunshine ;
+    text-align: center;
+    font-size: 50px;
+    color: indianred;
+}
+
+p{
+    font-family: CaviarDreams;
+    font-weight: 600;
+    padding-top: 10px;
+}
+
+.button{
+    margin-left: 90%;
+   
+}
+
+.img{
+    height: 40px;
+}
