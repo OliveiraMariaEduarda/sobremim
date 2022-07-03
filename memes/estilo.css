@@ -1,0 +1,119 @@
+body{
+    margin: 0;
+}
+
+@font-face {
+    font-family: Charlotte;
+    src: url(fonte/Charlotte.otf);
+  }
+
+@font-face {
+    font-family: CaviarDreams;
+    src: url(fonte/CaviarDreams.ttf);
+  }
+
+@font-face {
+    font-family: LEMONMILK;
+    src: url(fonte/LEMONMILK-Regular.otf);
+  }
+
+  @font-face {
+    font-family: Nesans;
+    src: url(fonte/Nesans.ttf);
+  }
+
+  @font-face {
+    font-family: Rounded_Elegance;
+    src: url(fonte/Rounded_Elegance.ttf);
+  }
+
+*{
+    box-sizing: border-box;
+}
+
+.team-section{
+    background-image: linear-gradient( to bottom right, #f6ea41,#f048c6);
+    min-height: 100vh;
+    padding: 70px 15px;
+}
+
+.container{
+    max-width: 1170px;
+    margin: auto;
+
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.team-section .section-title{
+    flex-basis: 100%;
+    max-width: 100%;
+    margin-bottom: 70px;
+}
+
+.team-section .section-title h1{
+    font-size: 80px;
+    text-align:center ;
+    margin: 0;
+    color:white;
+    font-family:Nesans ;
+
+}
+
+.team-section .section-title p{
+    font-size: 16px;
+    text-align: center;
+    margin: 15px 0 0;
+    color: white;
+    font-family: CaviarDreams ;
+}
+
+.team-section .team-items{
+    flex-basis: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.team-section .team-items .item{
+    flex-basis: calc(33% - 50px);
+    max-width: calc(33% - 50px);
+    transform: translateY(-20px);
+    margin: 15px;
+}
+
+.team-section .team-items .item:hover{
+    transform: translateY(-10px);
+}
+
+.team-section .team-items .item img{
+    display: block;
+    width: 100%;
+    border-radius: 8px;
+}
+
+.button{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display: block;
+    background: #ffffff8a;
+    border: solid  white ;
+    border-radius: 8px;
+    width: 150px;
+    height: 30px;
+}
+
+
+
+@media(max-width: 991px){
+    .team-section .team-items .item{
+        flex-basis: calc(25% - 30px);
+        max-width: calc(25% - 30px);
+        margin-bottom: 30px;
+    }
+}
