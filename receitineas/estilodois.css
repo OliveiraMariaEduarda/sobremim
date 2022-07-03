@@ -1,0 +1,23 @@
+body{
+    background-image: url("img/fundo.jpg");
+}
+@font-face {
+    font-family: CaviarDreams;
+    src: url(fonte/CaviarDreams.ttf);
+}
+
+.titulo{
+    text-align: center;
+    text-decoration:underline #7A818C;
+    font-family: CaviarDreams;
+}
+
+.figure{
+    text-align: center;
+}
+
+.lista{
+    width: 580px;
+    margin: 0 auto;
+    font-family: Arial;
+}
